@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Capture and organize your app ideas in one place." />
+  <title>AI Idea Organizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <main class="app">
+    <header>
+      <h1>AI Idea Organizer</h1>
+      <p class="subtitle">Capture your ideas now — analyze and build them later.</p>
+    </header>
+
+    <div class="input-box">
+      <input
+        id="ideaInput"
+        type="text"
+        placeholder="e.g. habit tracker app with AI coaching"
+        maxlength="500"
+        autocomplete="off"
+      />
+      <button id="addButton" type="button">Save idea</button>
+    </div>
+
+    <section class="ideas-section" aria-labelledby="ideas-heading">
+      <h2 id="ideas-heading">My ideas <span id="ideasCount" class="ideas-count">(0)</span></h2>
+
+      <div id="emptyState" class="empty-state">
+        <p>No ideas yet. Add your first one above!</p>
+      </div>
+
+      <ul id="ideasList" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <div id="errorToast" class="error-toast" role="alert"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
