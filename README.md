@@ -2,8 +2,7 @@
 
 > A lightweight web app for capturing and organizing app ideas — built with vanilla HTML, CSS, and JavaScript.
 
-**Live Demo:** [your-username.github.io/AI-Idea-Organizer](https://your-username.github.io/AI-Idea-Organizer/)  
-*(Replace `your-username` with your GitHub username after enabling GitHub Pages.)*
+**Live Demo:** [annavoy.github.io/AI-Idea-Organizer](https://annavoy.github.io/AI-Idea-Organizer/)
 
 <!-- Uncomment after adding a screenshot to docs/screenshot.png -->
 <!-- ![App screenshot](docs/screenshot.png) -->
@@ -43,7 +42,7 @@ No frameworks, no build step, no dependencies.
 Clone the repo and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/your-username/AI-Idea-Organizer.git
+git clone https://github.com/annavoy/AI-Idea-Organizer.git
 cd AI-Idea-Organizer
 open index.html        # macOS
 # or
@@ -59,7 +58,7 @@ Then visit `http://localhost:3000` if using `serve`.
 3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 4. Push to `main` — the included workflow deploys automatically.
 
-Your site will be live at `https://your-username.github.io/AI-Idea-Organizer/`.
+Your site will be live at `https://annavoy.github.io/AI-Idea-Organizer/`.
 
 ## Project Structure
 
@@ -93,4 +92,4 @@ MIT — feel free to use this project as a reference.
 
 ---
 
-**Author:** [Your Name](https://github.com/your-username)
+**Author:** [annavoy](https://github.com/annavoy)
