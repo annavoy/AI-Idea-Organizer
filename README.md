@@ -4,8 +4,7 @@
 
 **Live Demo:** [annavoy.github.io/AI-Idea-Organizer](https://annavoy.github.io/AI-Idea-Organizer/)
 
-<!-- Uncomment after adding a screenshot to docs/screenshot.png -->
-<!-- ![App screenshot](docs/screenshot.png) -->
+![App screenshot](docs/screenshot.png)
 
 ---
 
