@@ -53,12 +53,12 @@ Then visit `http://localhost:3000` if using `serve`.
 
 ### Deploy to GitHub Pages
 
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. Push to `main` — the included workflow deploys automatically.
+1. Open your repo on GitHub → **Settings** → **Pages**
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Set **Branch** to `main` and folder to **`/ (root)`**
+4. Click **Save** — the site goes live in 1–2 minutes
 
-Your site will be live at `https://annavoy.github.io/AI-Idea-Organizer/`.
+Your site will be at `https://annavoy.github.io/AI-Idea-Organizer/`.
 
 ## Project Structure
 
@@ -69,9 +69,6 @@ AI-Idea-Organizer/
 │   └── style.css       # Styles
 ├── js/
 │   └── script.js       # App logic
-├── .github/
-│   └── workflows/
-│       └── deploy.yml  # GitHub Pages deployment
 ├── docs/
 │   └── screenshot.png  # Add a screenshot for your README (optional)
 ├── README.md
